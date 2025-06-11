@@ -1,11 +1,14 @@
 body{
     margin: 1;
     background-color: #5e5e5e;
-    color: #bdbdbd;
+    color: #dddbdb;
 }
 
 h1{
     margin: auto;
-    color: rgb(44, 44, 44);
+    text-align: center;
+}
+
+.centered{
     text-align: center;
 }
