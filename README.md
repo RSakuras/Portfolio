@@ -1,3 +1,3 @@
 # Portfolio
 
-Work in progress. Not ready yet, not even close
+Work in progress. Currently just initial set up.
