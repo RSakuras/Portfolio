@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="CSS/Index.css" />
-    <script defer src="JavaScript/Index.js"></script> 
+    <script defer src="JavaScript/index.js"></script> 
 </head>
 <body>
     <div>
         <div class="top">
             <h1>Portfolio</h1>
-            <div class="buttons">
-            <button class="textButton" onclick="SayHello()">Home</button>
-            <button class="textButton" onclick="DontDoIt()">Projects</button>
+            <div class="topButtons">
+            <button class="textButton" id="homeButton" onclick="LoadPage('HTML/about.html', 'content')">Home</button>
+            <button class="textButton" id="projectButtons" onclick="LoadPage('HTML/Projects.html', 'content')">Projects</button>
             </div>
         </div>
     </div>  
-    <p>Work in progress ... Initial setup</p>
+    <div id="content">
+        
+    </div>
+
 </body>
 </html>
