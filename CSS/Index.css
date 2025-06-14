@@ -12,9 +12,8 @@ body{
 }
 
 .textButton:hover{
-    background-color: rgba(184, 184, 184, 0.349);
+    text-decoration: underline;
 }
-
 
 .top{
     display: flex;
